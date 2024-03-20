@@ -480,11 +480,12 @@ input {
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .header__logo {
-    padding-left: 30px;
     margin: 0;
   }
-  .menu {
-    padding-right: 40px;
+  .header {
+    gap: 424px;
+    display: flex;
+    justify-content: center;
   }
   .top-head {
     display: flex;
@@ -555,5 +556,136 @@ input {
   }
   .footer__contacts_icons {
     margin-right: 32px;
+  }
+}
+@media (max-width: 425px) and (min-width: 375px) {
+  .header__logo {
+    margin: 0;
+  }
+  .header {
+    gap: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .basket {
+    display: none;
+  }
+  .top-head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .top-head__heading {
+    margin-bottom: 32px;
+  }
+  .filter-sort {
+    height: 93px;
+    position: relative;
+    display: flex;
+    gap: 0px;
+    padding-top: 26px;
+  }
+  .filter__heading {
+    display: none;
+  }
+  .filter__summary__svg {
+    width: 37px;
+    height: 25px;
+  }
+  .filter__summary {
+    gap: 0px;
+    padding-left: 8px;
+  }
+  .sort {
+    display: flex;
+    gap: 24px;
+  }
+  .sort__heading {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  .filter {
+    width: 106px;
+  }
+  .filter-sort {
+    height: 80px;
+    gap: 0px;
+  }
+  .product-box {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 52px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vector {
+    margin-bottom: 64px;
+  }
+  .footer__shop__service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #222224;
+    padding-top: 48px;
+    padding-bottom: 82px;
+    flex-wrap: wrap;
+    gap: 46px;
+  }
+  .footer_service {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+  }
+  .footer__shop_title {
+    margin-bottom: 14px;
+    margin-top: 28px;
+  }
+  .footer__form__img {
+    width: 90px;
+  }
+  .footer__form__text {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 344px;
+  }
+  .footer__subscribe__text {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .footer__subscribe__text2 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 22px;
+  }
+  .footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 110px;
+  }
+  .wrapper_inpt {
+    margin-bottom: 0px;
+  }
+  .footer__contacts {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    gap: 26px;
+  }
+  .footer__contacts__text {
+    padding-left: 0;
+  }
+  .footer__contacts_icons {
+    margin-right: 0px;
   }
 }/*# sourceMappingURL=style.css.map */

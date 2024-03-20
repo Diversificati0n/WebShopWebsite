@@ -463,3 +463,130 @@ input {
     }
 
     }
+
+    // -----------------------------------------
+
+
+@media (max-width: 425px) and (min-width: 375px) {
+
+    .header__logo {
+        margin: 0;
+    }
+    
+    .header {
+        gap: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .basket {
+        display: none;
+    }
+
+    .top-head {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        &__heading {
+            margin-bottom: 32px;
+        }
+    }
+
+    .slider {
+        height: 624px;
+        width: 100%; 
+        overflow: hidden;   
+    }
+
+    .product-description {
+        height: 600px;
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 64px;
+        &__text {
+            width: 326px;
+        }
+        &__price {
+            margin-bottom: 32px;
+        }
+        &__link {
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12px;
+        }
+        &__svg {
+            width: 174px;
+        }
+    }
+
+    .description__title {
+        margin-bottom: 32px;
+    }
+
+    .description__link {
+        margin-bottom: 50px;
+    }
+
+    .product-box {
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+        margin-bottom: 64px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__form__img {
+        width: 90px;
+    }
+
+    .footer__form__text {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 344px;
+    }
+
+    .footer__subscribe__text {
+        margin-top: 0;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .footer__subscribe__text2 {
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 22px;
+    }
+    
+    .footer__form {
+        display: flex;
+        flex-direction: column;
+        gap: 60px; 
+        flex-wrap: wrap;
+        align-content: center;
+        padding-bottom: 110px;
+    }
+
+    .wrapper_inpt {
+        margin-bottom: 0px;
+    }
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        gap: 26px;
+    }
+
+    .footer__contacts__text {
+        padding-left: 0;
+    }
+
+    .footer__contacts_icons {
+        margin-right: 0px;
+    }
+
+}

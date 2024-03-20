@@ -520,5 +520,161 @@ input {
     .footer__contacts_icons {
         margin-right: 32px;
     }
+}
+
+
+// -----------------------------------------
+
+
+@media (max-width: 425px) and (min-width: 375px) {
+    
+    .header__logo {
+        margin: 0;
+    }
+    
+    .header {
+        gap: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .basket {
+        display: none;
+    }
+
+    .top-head {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cart-box {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        gap: 0;
+        align-items: center;
+        &__product1 {
+            width: 357px;
+            height: 188px;
+        }
+        &__head {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            margin-bottom: 26px;
+            width: 140px;
+        }
+        &__text {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+        }
+        &__svg {
+            position: absolute;
+            top: 7px;
+            right: 7px;
+        }
+        &__buttons {
+            display: flex;
+            gap: 9px;
+        }
+    }
+
+    .clear-button {
+        background-color: transparent;
+        border: 1px solid #a4a4a4;
+        padding: 8px 30px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .img-cart {
+        width: 143px;
+        height: 188px
+    }
+
+    .cart__application {
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart__head {
+        margin-top: 48px;
+    }
+
+    .cart__button {
+        margin-top: 4px;
+        margin-bottom: 0;
+    }
+
+    .input-field {
+        border: 1px solid #a4a4a4;
+        padding-top: 13px;
+        padding-bottom: 18px;
+        padding-left: 18px;
+        width: 340px;
+        margin-bottom: 20px;
+    }
+
+    .cart__purchase {
+        margin-bottom: 96px;
+    }
+
+    .footer__form__img {
+        width: 90px;
+    }
+
+    .footer__form__text {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 344px;
+    }
+
+    .footer__subscribe__text {
+        margin-top: 0;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .footer__subscribe__text2 {
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 22px;
+    }
+    
+    .footer__form {
+        display: flex;
+        flex-direction: column;
+        gap: 60px; 
+        flex-wrap: wrap;
+        align-content: center;
+        padding-bottom: 110px;
+    }
+
+    .wrapper_inpt {
+        margin-bottom: 0px;
+    }
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        gap: 26px;
+    }
+
+    .footer__contacts__text {
+        padding-left: 0;
+    }
+
+    .footer__contacts_icons {
+        margin-right: 0px;
+    }
 
 }
